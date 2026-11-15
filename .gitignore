@@ -1,5 +1,12 @@
-Data/
-Models/
+# Python environment
+.venv/
 __pycache__/
-*.pyc
-.env
+.ipynb_checkpoints/
+
+# Medical dataset and generated metadata
+03_Assets/
+*.dcm
+
+# Trained models and checkpoints
+*.pth
+*.pt
